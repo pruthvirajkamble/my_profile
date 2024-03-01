@@ -7,39 +7,11 @@
     <!-- CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <!-- <style>
-      .header{
-        background-color: rgb(117, 163, 165);
-      }
-      .text{
-        color: rgb(240, 248, 255);
-      }
-      /* #resume {
-        color: orange;
-        font-weight: bolder;
-      } */
-      .heading {
-        color: cadetblue;
-        font-style: italic;
-      }
-      /* .icon {
-        color: aqua;
-        font-weight: bold;
-      } */
-      a{
-        text-decoration: none;
-        color: chocolate;
-        font-style: italic;
-      }
-      .line{
-        color: cornflowerblue;
-        font-weight: bold;
-      }
-      #last{
-        font-weight: bold;
-        color: coral;
-      }
-    </style> -->
+    <!-- CDN Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   <!-- using css -->
     <style>
       a{
         text-decoration: none;
@@ -52,6 +24,7 @@
       header{
         padding: 20px;
         background-color: rgb(216, 244, 245);
+        font-family: "Roboto", sans-serif;
       }
       #resume{
         color: orange;
@@ -70,6 +43,7 @@
       }
       .name{
         margin: 10px;
+        font-family: "Roboto", sans-serif;
       }
       li{
         padding: 5px;
@@ -86,6 +60,29 @@
       }
       footer{
         padding:10px;
+        font-family: "Poppins", sans-serif;
+      }
+      table, tr, th,td{
+        border: 2px solid orange;
+        border-collapse: collapse;
+      }
+      td, th{
+        padding: 10px;
+      }
+      #Details{
+        width: 50%;
+      }
+      .home{
+        font-family: "Roboto", sans-serif;
+      }
+      .techStack{
+        font-family: "Poppins", sans-serif;
+      }
+      .project{
+        font-family: "Poppins", sans-serif;
+      }
+      .education{
+        font-family: "Poppins", sans-serif;
       }
       
 
@@ -103,7 +100,7 @@
       <a href="assets/resume.pdf" download id="resume">  
       <i class="fa fa-download fa-lg" aria-hidden="true"></i> 
       <span id="resume-text">RESUME</span></a>        
-</header>
+    </header>
 
     <!-- Navigation Section -->
     <nav class="name">
@@ -121,7 +118,7 @@
       <!-- HOME Section -->
       <!-- <h2>Career Objectives</h2>
       <p>TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH</p> -->
-      <section id="home">
+      <section class="home">
         <h2 class="heading">Professional Summary</h2>
         <ul>
           <li class="line">
@@ -151,9 +148,9 @@
       </section>
       <hr />
       <!-- Technology stack section -->
-      <section id="techStack">
+      <section class="techStack">
         <h2 class="heading">My Technology stack is</h2>
-        <table border="1" id="Details">
+        <table  id="Details">
           <thead>
             <tr>
               <th>Sr.No</th>
@@ -188,7 +185,7 @@
       <hr />
 
       <!-- Project Section -->
-      <section id="project">
+      <section class="project">
         <h2 class="heading">Projects</h2>
         <p>
           <b>Name: <u>Student Management</u></b>
@@ -212,7 +209,7 @@
         <h2>Roles and Responsibilities</h2>
         <ul>
           <li>
-            Designed and Implemented the user interface using HTMLS and CSS3
+            Designed and Implemented the user interface using HTML and CSS3
           </li>
           <li>Work closely with backend developers for code integration</li>
           <li>Identifying and troubleshooting issues in front end codebase</li>
@@ -228,9 +225,9 @@
       <hr />
 
       <!-- Education Section -->
-      <section id="education">
+      <section class="education">
         <h2>MY Education Details</h2>
-        <table border="1" id="Details">
+        <table  id="Details">
           <thead>
             <tr>
               <th>Qualification</th>
