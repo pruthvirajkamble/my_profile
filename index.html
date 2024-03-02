@@ -84,6 +84,15 @@
       .education{
         font-family: "Poppins", sans-serif;
       }
+      #listSummary li{
+        list-style-type: circle;
+      }
+      .roles{
+        list-style-type: lower-alpha;
+      }
+      #projectDesc::selection{
+      background-color: rgb(241, 193, 104);
+    }
       
 
     </style>
@@ -120,7 +129,7 @@
       <p>TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH</p> -->
       <section class="home">
         <h2 class="heading">Professional Summary</h2>
-        <ul>
+        <ul id="listSummary">
           <li class="line">
             Having 1 years of experience in developing Single page Web
             Applications using Angular8, HTML5, CSS3, Bootstrap 5, JavaScript,
@@ -207,7 +216,7 @@
         </p>
         <hr />
         <h2>Roles and Responsibilities</h2>
-        <ul>
+        <ol class="roles">
           <li>
             Designed and Implemented the user interface using HTML and CSS3
           </li>
@@ -220,7 +229,7 @@
             stand up calls, sprint retrospective meetings
           </li>
           <li>involved in fixing technical issues in production environment</li>
-        </ul>
+        </ol>
       </section>
       <hr />
 
