@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Card</title>
+    <style>
+      #heading {
+        letter-spacing: 7px;
+        font-weight: bolder;
+        font-size: larger;
+        text-align: center;
+        background-color: rgb(4, 248, 248);
+      }
+
+      #container {
+        box-shadow: 28px -22px 65px -11px rgba(144,55,55,0.92);
+        -webkit-box-shadow: 28px -22px 65px -11px rgba(144,55,55,0.92);
+        -moz-box-shadow: 28px -22px 65px -11px rgba(144,55,55,0.92);
+        background-color: rgb(142, 192, 181);
+        width: 690px;
+        margin: 20px auto;
+        border-radius: 20px;
+        padding: 18px;
+      }
+
+      #text {
+        display: inline-block;
+        margin: 10px;
+      }
+
+      #text li {
+        list-style-type: none;
+        font-weight: bold;
+        font-style: large;
+        margin: 10px;
+      }
+
+      #text li::marker {
+        padding: 10px;
+        content: "✍️  ";
+      }
+
+      #image {
+        display: inline;
+        margin-left: 20px;
+      }
+
+      #box {
+        box-shadow: 28px -22px 65px -11px rgba(144,55,55,0.92);
+        -webkit-box-shadow: 28px -22px 65px -11px rgba(144,55,55,0.92);
+        -moz-box-shadow: 28px -22px 65px -11px rgba(144,55,55,0.92);
+        background-color: cadetblue;
+        border-radius: 40px;
+        width: 690px;
+        margin: 20px auto;
+        padding: 18px;
+        color: rgb(217, 231, 231);
+      }
+
+      #arrow {
+        display: inline-block;
+        margin-left: 150px;
+      }
+
+      #header {
+        display: inline-block;
+      }
+
+      #header li {
+        list-style-type: none;
+        margin: 10px;
+        font-weight: bold;
+        font-style: large;
+      }
+
+      #content {
+        list-style-type: none;
+        margin-top: 25px;
+        font-weight: bolder;
+        font-style: larger;
+        font-size: 30px;
+        color: rgb(3, 58, 58);
+      }
+    </style>
+  </head>
+  <body>
+    <section id="container">
+      <h2 style="text-align: center; padding-left: 125px">
+        Compare Text Online
+      </h2>
+      <section id="image">
+        <img src="/assets/developer.png" alt="" width="250" height="230" />
+        <ul id="text">
+          <li>Compare text online free</li>
+          <li>Supports large file comparison</li>
+          <li>Ignore order and namespaces</li>
+          <li>Side by side diff view</li>
+          <li>Get results in tabular format for quick reference</li>
+          <li>Text diff tool</li>
+          <li>REST API</li>
+        </ul>
+      </section>
+    </section>
+
+    <section id="box">
+      <ul id="content">
+        <li><strong>2 Stocks</strong></li>
+        <li><strong>Recommendation</strong></li>
+        <li><strong>Weekly</strong></li>
+      </ul>
+      <ul id="header">
+        <li>Midcap Stocks Gaining</li>
+        <li>Momentum after 30-40% fall</li>
+        <li>From 52 wek High</li>
+      </ul>
+      <img
+        style="padding-left: 100px"
+        src="/assets/icon.jpg"
+        alt="Arrow"
+        width="180"
+        height="130"
+      />
+    </section>
+  </body>
+</html>
