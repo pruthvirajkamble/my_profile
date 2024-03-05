@@ -13,6 +13,7 @@ a {
   /* font-style: italic; */
   padding: 10px;
   margin: 5px;
+  text-align: center;
 }
 /* header section */
 header {
@@ -20,6 +21,9 @@ header {
   background-color: rgb(7, 8, 8);
   font-family: "Roboto", sans-serif;
   color: white;
+  position: fixed;
+  width: 100%;
+
 }
 #resume {
   color: orange;
@@ -28,6 +32,10 @@ header {
 .heading {
   color: cadetblue;
   font-style: italic;
+ 
+}
+.home, .heading{
+  margin-top: 50px;
 }
 .header-info {
   margin-right: 40px;
@@ -38,12 +46,17 @@ header {
 }
 /* Navigation Section */
 #navSection{
-  padding: 10px;
-  text-align: right;
+  padding: 5px;
+  margin: 10px;
+  text-align: left;
+  position: fixed;
+  background-color: antiquewhite;
+  top: 30px;
 }
 #navSection li{
   display: inline;
   margin-right: 40px;
+  margin-left: 50px; 
 }
 #navSection a{
   letter-spacing: 2px;
@@ -111,3 +124,10 @@ th {
 #projectDesc::selection {
   background-color: rgb(241, 193, 104);
 }
+#chat i{
+  bottom: 20px;
+  right: 20px;
+  margin-left: 1400px;
+  position: fixed;
+}
+
