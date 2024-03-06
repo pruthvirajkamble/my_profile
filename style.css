@@ -32,10 +32,18 @@ header {
 .heading {
   color: cadetblue;
   font-style: italic;
- 
 }
 .home, .heading{
-  margin-top: 50px;
+  margin-top: 80px;
+}
+.techStack .heading{
+  margin-top: 10px;
+}
+.project .heading{
+  margin-top: 10px;
+}
+.education .heading{
+  margin-top: 10px;
 }
 .header-info {
   margin-right: 40px;
