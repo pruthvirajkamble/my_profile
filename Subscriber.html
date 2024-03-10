@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscriber</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        box-sizing: border-box;
+      }
+      #container {
+        margin: 60px 0px 0px 484px;
+        width: 358px;
+        height: 460px;
+        border: 2px solid rgb(171, 169, 169);
+        border-radius: 10px;
+        letter-spacing: 1px;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+      }
+      h2 {
+        padding-left: 10px;
+        font-family: "Roboto", sans-serif;
+      }
+      #box {
+        margin: -20px 9px 9px 9px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        background-color: #4fa4f9;
+        color: white;
+        font-family: "Roboto", sans-serif;
+      }
+      .num {
+        margin-left: 10px;
+        width: 310px;
+        padding: 7px;
+        border-radius: 5px;
+        border: 1px solid rgb(15, 9, 9);
+        color: rgb(1, 19, 19);
+        background-color: rgb(246, 246, 246);
+        font-size: large;
+      }
+      span {
+        color: red;
+      }
+      label {
+        font-weight: bold;
+        padding-left: 10px;
+        font-family: "Roboto", sans-serif;
+      }
+      button {
+        margin-top: 75px;
+        border-radius: 5px;
+        padding: 5px 15px;
+        bottom: 60px;
+        right: -244px;
+        position: relative;
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="container">
+      <h2>Subscriber</h2>
+
+      <section>
+        <form action="">
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <textarea name="" id="box" cols="40" rows="12">
+
+ We're sorry to see you go, but hey, no hard feelings, hopefully we will see you back one day. 
+    Please fill in your email address in order to unsubscribe from the list. 
+    You will receive an email to confirm your unsubscription, just to make sure this is not an accident or somebody else tries to unsubscribe you.</textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label>Email <span>*</span></label>
+                </td>
+              </tr>
+              <tr>
+                <td><input type="text" class="num" /></td>
+              </tr>
+              <tr>
+                <td><label>Unsubscribe reason</label></td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    type="text"
+                    autofocus
+                    placeholder="Unsubscribe reason"
+                    class="num"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </section>
+      <button type="button">Unsubscribe</button>
+    </section>
+  </body>
+</html>
